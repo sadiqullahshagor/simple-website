@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-section{
+    margin-bottom: 150px;
+}
+
+.dib{
+    display: inline-block;
+}
+.display-flex{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.flex{
+    width:50%;
+}
+.dib{
+    margin:30px 0 30px 30px;
+}
+
+div .yeamin-color{
+    color:rgb(110, 104, 192);
+    font-weight:600;
+}
+
+.yeamin-text-area{
+    margin-left: 60px;
+    width:40%;
+    
+}
+
+.text{
+    text-align: justify;
+}
+
+button{
+    background-image:linear-gradient(rgb(0, 174, 255), blue);
+    padding:10px 35px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border:0;
+}
+button a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:600;
+    text-transform: uppercase;
+    
+    }
+
+button:hover{
+    background-image:linear-gradient(blue, rgb(0, 174, 255));
+}
+
+
+
+
+.logo-area{
+    text-align: center;
+    margin-left:30px;
+    border-left:0.5px solid;
+    border-image: linear-gradient(to right bottom, #ff08002a, #00000041);
+    border-image-slice: 1
+}
+.logo-area img{
+width:30%;
+margin-top:-20px
+
+}
+/* midel-section */
+.midel-section{
+    text-align: center;
+    width:95%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.midel-text{
+    margin: 0 10px;
+    width:31%;
+    padding: 20px 30px;
+    background:rgba(198, 199, 199, 0.137);
+    border-radius: 8px;
+
+
+    box-shadow: 10px 10px 20px rgba(29, 29, 29, 0.137);
+}
+
+.midel-text p{
+    text-align:left;
+}
+
+.midel-text h3{
+    margin-bottom: 10px;
+    background:rgb(255, 255, 255);
+    display: inline-block;
+    padding:8px 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+.boss-section{
+    margin-bottom: 150px;
+}
+
+.boss{
+    width:50%;
+}
+.boss-img{
+    justify-content: center;
+    align-items: center;
+    top:+50%;
+    text-align: center;
+    transform:translateX(0);
+    
+}
+
+.boss-img img{
+width:40%;
+
+}
+
+.some-text{
+    width:50%;
+    margin:10px 50px;
+    padding: 20px 30px;
+    text-align: center;
+
+
+}
+.some-text p{
+    margin-top: 20px;
+    text-align:left !important;
+}
+
+.some-text p a{
+    text-decoration: none;
+    font-weight:600;
+}
+
+hr{
+    margin: 0 0 50px;
+    border-bottom:.1px solid rgba(95, 95, 95, 0.315);
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    width:70%;
+    margin-left:15%;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom:50px;
+}
